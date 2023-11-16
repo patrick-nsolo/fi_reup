@@ -1,6 +1,5 @@
 import React from 'react';
-import './App.css';
-import Header from '../src/Components/Header/Header';
+import Header from './Components/Header/Header';
 import Phonesection from './Components/PhoneSection/Phonesection';
 import Risktolerance from './Components/Risktolerance/Risktolerance';
 import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
