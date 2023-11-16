@@ -1,0 +1,168 @@
+.phone-section{
+    padding: 80px 100px;    
+}
+.phone-section-container{
+    color:black; 
+}
+.row{
+width:100%; 
+display: flex;
+justify-content: center;
+align-items: center;
+}
+.col-6{
+    width: 100%;
+}
+.about h3{
+    font-size: 2rem;
+    font-weight: 800;
+}
+.about h1{
+    font-size:2.5rem;
+    font-weight: 800;
+    margin-top: 20px;
+}
+.about p{
+    margin-top: 20px;
+    font-weight: 500;
+}
+.phone-black-outline{
+    height: 600px;
+    width:300px;
+    background: #232323;
+    border-radius: 30px;
+    position: absolute;
+    left:60%;
+}
+.phone-white-outline{
+    background: #71c671;
+    border-radius: 25px;
+    position: relative;
+    z-index: 2;
+    height: 580px;
+    width:282px;
+    margin-left: 161px;
+    margin-top: 10px;
+}
+.top-nav{
+    position: absolute;
+    right:22%;
+    bottom:-20%;
+    z-index: 3;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    color:#fff;
+}
+.top-nav p{
+    font-weight: 600;
+    font-size: 0.9rem;
+}
+.top-nav .manage{
+    color:#1b3b1b;
+}
+.profile-pic img{
+    width:60px;
+    height: 60px;
+    position: absolute;
+    right:34%;
+    bottom:-32%;
+    z-index: 3;
+    border-radius: 30px;
+}
+.balance{
+    position: absolute;
+    right:29%;
+    bottom:-39%;
+    z-index: 3;
+    color:#232323;
+    font-weight: 800;
+    font-size: 1.5rem;
+}
+.indicators{
+    position: absolute;
+    right:29%;
+    bottom:-47%;
+    z-index: 3;
+    font-size: 0.6rem;
+    list-style: none;
+    font-weight: 600;
+}
+.indicators li{
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    line-height: 15px;
+}
+.indicators li .caret{
+    color:#232323;
+    rotate: 180deg;
+}
+.line-chart img{
+    width:250px;
+    z-index: 4;
+    position: absolute;
+    left:61.6%;
+    bottom:-75%;
+}
+.transfer-money{
+    background: #1b3b1b;
+    width:250px;
+    height: 50px;
+    padding: 15px;
+    z-index: 4;
+    position: absolute;
+    left:61.6%;
+    bottom:-85%;
+    color: #ffffff;   
+}
+@media (max-width:900px){
+    .row{
+        display: flex;
+        flex-direction: column;
+    }
+    .phone-section{
+        padding: 0;
+    }
+    .about{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        margin: auto 0;
+        padding: 40px;
+        text-align: center;
+    }
+    .phone-black-outline{
+        left:12%;
+        top:200%;
+    }
+    .phone-white-outline{
+        margin-left: 54px;
+        margin-top:81px;
+    }
+    .top-nav{
+        right:17%;
+        bottom:-110%;
+    }
+    .profile-pic img{
+        right:65%;
+        bottom:-125%;
+    }
+    .balance{
+        right:46%;
+        bottom:-130%;
+    }
+    .indicators{
+        right:44%;
+        bottom:-137%;
+    }
+    .line-chart img{
+        left:19%;
+        bottom:-166%;
+    }
+    .transfer-money{
+        left:19%;
+        bottom:-175%;   
+    }
+}
